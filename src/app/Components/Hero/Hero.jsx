@@ -17,7 +17,7 @@ export default function Hero() {
                     heroData.slice(0, 3).map((person , i) =>(
                       <div className="person-pill" key={i}>
                         <div className="person-pill-bg">
-                           <Image src={person.src} alt={person.src}/>
+                           <Image className="myImg" src={person.src} alt={person.src}/>
                         </div>
                       </div>
                     ))
@@ -29,7 +29,7 @@ export default function Hero() {
                     heroData.slice(3, 6).map((person , i) =>(
                       <div className="person-pill" key={i}>
                         <div className="person-pill-bg">
-                           <Image src={person.src} alt={person.src}/>
+                           <Image className="myImg" src={person.src} alt={person.src}/>
                         </div>
                       </div>
                     ))
