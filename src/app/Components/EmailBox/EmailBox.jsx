@@ -38,7 +38,7 @@ export default function EmailBox() {
             <motion.input
              variants={containerVariants(0.8)}
              initial={"offscreen"}
-             whileInView={"onscreen"}
+             whileInView={"onscreen"} 
              viewport= {{
                  once:true
              }}
