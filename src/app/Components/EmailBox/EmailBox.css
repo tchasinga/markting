@@ -8,3 +8,8 @@
     position: relative;
     overflow: hidden;
 }
+
+.emailBox input{
+    outline: none;
+    border: none;
+}
