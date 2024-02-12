@@ -1,10 +1,13 @@
+"use client"
+
 import React from 'react'
 import './EmailBox.css'
 import {LuMail} from "react-icons/lu"
+import { motion } from 'framer-motion';
 
 export default function EmailBox() {
   return (
-    <div  className="emailBox">
+    <motion.div  className="emailBox">
         {/* Icons code is added now...*/}
         <div className="">
             <LuMail size={30} color='grey'/>
@@ -16,6 +19,6 @@ export default function EmailBox() {
         <div className="getFunded">
             Sent mail
         </div>
-    </div>
+    </motion.div>
   )
 }

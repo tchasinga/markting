@@ -1,10 +1,28 @@
+"use client"
 import React from 'react'
 import './Hero.css'
 import EmailBox from '../EmailBox/EmailBox'
 import heroData from "../../Utils/data.js"
 import Image from "next/image";
+import { motion , delay} from 'framer-motion';
 
 export default function Hero() {
+
+  const variants = (delay) =>({
+    initial : {
+      y: "18rem"
+    },
+    animate : {
+      y: "0rem",
+       transition: {
+        damping: 25,
+        type: "spring",
+        duration: 7,
+        delay 
+       }
+    }
+  })
+
   return (
     <div className="h-wrapper">
         <div className="container">
@@ -16,9 +34,14 @@ export default function Hero() {
                   {
                     heroData.slice(0, 3).map((person , i) =>(
                       <div className="person-pill" key={i}>
-                        <div className="person-pill-bg">
+                        <motion.div
+                        initial={"initial"}
+                        animate={"animate"}
+                        variants={variants(person.delay)}
+                        style={{backgroundColor: person.bg}}
+                        className="person-pill-bg">
                            <Image className="myImg" src={person.src} alt={person.src}/>
-                        </div>
+                        </motion.div>
                       </div>
                     ))
                   }
@@ -28,9 +51,14 @@ export default function Hero() {
                   {
                     heroData.slice(3, 6).map((person , i) =>(
                       <div className="person-pill" key={i}>
-                        <div className="person-pill-bg">
-                           <Image className="myImg" src={person.src} alt={person.src}/>
-                        </div>
+                        <motion.div
+                         initial={"initial"}
+                         animate={"animate"}
+                         variants={variants(person.delay)}
+                         style={{backgroundColor: person.bg}}
+                        className="person-pill-bg">
+                        <Image className="myImg" src={person.src} alt={person.src} />
+                      </motion.div>
                       </div>
                     ))
                   }
