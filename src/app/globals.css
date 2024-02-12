@@ -2,3 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
+:root{
+  --dark-bg: #282c35;
+  --light-bg: #f6f7fb;
+  --primary-color: #3f72d7;
+  --secondary-color: #02c4ff;
+  --third-color: #f3ef54;
+  --fourth-color: #fee590;
+  --text-color: #848488;
+  --text-secondary : #554b92;
+  --text-color-dark : #12183f;
+  --text-color-light : #fcf3d4;
+  --title-color : #221577;
+  --border-color : #e6e3ff;
+  --border-color-dark : #27263a;
+}
