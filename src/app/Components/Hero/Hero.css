@@ -11,4 +11,36 @@
 .h-container{
     display: flex;
     height: 80vh;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+}
+
+.h-left{
+    flex: 1;
+}
+
+.h-right{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.h-title{
+    display: flex;
+    flex-direction: column;
+    font-size: 3rem;
+    font-weight: 300;
+    color: var(--third-color);
+}
+
+.h-title > :nth-child(3){
+    color: #fff;
+}
+
+.h-des{
+    color: #fff;
+    font-size: 1rem;
+    line-height: 1.25rem;
 }
