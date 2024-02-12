@@ -1,9 +1,11 @@
 import Image from "next/image";
+import './globals.css'
+import Navbars from "./Components/Navbars/Navbars";
 
 export default function Home() {
   return (
-    <main className="">
-      <h1 className="text-4xl font-bold text-center">Welcome to Next.js</h1>
+    <main className="app">
+      <Navbars />
     </main>
   );
 }
