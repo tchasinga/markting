@@ -19,3 +19,17 @@
   --border-color-dark : #55ddf8;
   --shadow : 10px 12px 48px rgba(181, 187, 203, 0.206)
 }
+
+html{
+  box-sizing: border-box;
+}
+
+body{
+  color: var(--text-color);
+  margin: 0 !important;
+  max-width: 100%;
+  overflow-x: hidden;
+  padding: 0 !important;
+  touch-action: pan-y, pan-x;
+  transition: all 0.4s cubic-bezier(0.57, 0.25, 0.33, 1) 0s;
+}
