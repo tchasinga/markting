@@ -1,0 +1,10 @@
+.emailBox{
+    background-color: #fff;
+    padding: 1rem 2rem;
+    border-radius: 999px;
+    display: flex;
+    align-items: center;
+    width: 70%;
+    position: relative;
+    overflow: hidden;
+}

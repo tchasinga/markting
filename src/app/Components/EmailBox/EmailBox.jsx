@@ -4,16 +4,17 @@ import {LuMail} from "react-icons/lu"
 
 export default function EmailBox() {
   return (
-    <div className="emailBox">
+    <div  className="emailBox">
         {/* Icons code is added now...*/}
         <div className="">
-            <LuMail/>
+            <LuMail size={30} color='grey'/>
         </div>
 
-        {/* Input */}
+        {/* Input controlls*/}
+            <input type="email" placeholder="Enter your email..."/>
 
-        <div className=''>
-            
+        <div className="getFunded">
+            Sent mail
         </div>
     </div>
   )
