@@ -10,7 +10,11 @@ export default function EmailBox() {
             <LuMail/>
         </div>
 
-        {/* Input s */}
+        {/* Input */}
+
+        <div className=''>
+            
+        </div>
     </div>
   )
 }
