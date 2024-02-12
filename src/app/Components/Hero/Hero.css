@@ -18,7 +18,15 @@
 
 .h-left{
     flex: 1;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    padding-top: 5rem;
 }
+
+
 
 .h-right{
     flex: 1;
