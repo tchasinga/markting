@@ -1,5 +1,6 @@
 import React from 'react'
 import './Hero.css'
+import EmailBox from '../EmailBox/EmailBox'
 
 export default function Hero() {
   return (
@@ -22,7 +23,7 @@ export default function Hero() {
                Marketing refers to the activities a company undertakes to promote the buying or selling of a product or service, including advertising, selling, and delivering products to consumers or other businesses
                </div>
 
-               <span>Email Section</span>
+               <EmailBox />
                </div>
             </div>
         </div>
