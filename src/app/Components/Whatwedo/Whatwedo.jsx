@@ -26,10 +26,10 @@ export default function Whatwedo() {
                         </div>
                         <span className="wwd-block-des">We help you increase your revenue by providing you with the best marketing strategies and tools to help you grow your business.</span>
 
-                        <div className="wwd-block-img">
+                        <div className="flex-1 flex  items-center justify-center text-center gap-4 border-dark-100 p-6">
                             {
                                 MeetDaata.slice(0,3).map((item, index) => (
-                                        <div key={index}>
+                                        <div key={index} className="flex-1 flex  items-center flex-col justify-center text-center gap-4 border-dark-100 p-6 ">
                                             <Image src={item.src} alt={item.title} width={80} heigth={80}/>
                                             <span className="wwd-block-img-title">{item.title}</span>
                                         </div>
@@ -37,7 +37,23 @@ export default function Whatwedo() {
                             }
                         </div>
                     </div>
-                    <div classNam="wwd-block">Second</div>
+                    <div classNam="wwd-block">
+                    <div>
+                        <span className="wwd-block-title">Commerce side</span>
+                        </div>
+                        <span className="wwd-block-des">We help you increase your revenue by providing you with the best marketing strategies and tools to help you grow your business.</span>
+
+                    <div className="flex-1 flex  items-center justify-center text-center gap-4 border-dark-100 p-6">
+                            {
+                                MeetDaata.slice(3,6).map((item, index) => (
+                                        <div key={index} className="flex-1 flex  flex-col items-center justify-center text-center gap-4 border-dark-100 p-6">
+                                            <Image src={item.src} alt={item.title} width={80} heigth={80}/>
+                                            <span className="wwd-block-img-title">{item.title}</span>
+                                        </div>
+                                ))
+                            }
+                        </div>
+                    </div>
                  </div>
             </div>
         </div>

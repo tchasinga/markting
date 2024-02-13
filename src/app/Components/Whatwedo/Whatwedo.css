@@ -26,7 +26,7 @@
   width: 100%;
 }
 
-.wwd-block{
+.wwd-blocks > div {
     flex: 1;
     display: flex;
     flex-direction: column;
