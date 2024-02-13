@@ -1,5 +1,6 @@
 "use client";
 import React from 'react';
+import MeetDaata from '../../Utils/MeetDaata';
 
 export default function Whatwedo() {
   return (
@@ -25,7 +26,7 @@ export default function Whatwedo() {
 
                         <div className="wwd-block-img">
                             {
-                                
+
                             }
                         </div>
                     </div>
