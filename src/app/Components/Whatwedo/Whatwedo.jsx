@@ -13,8 +13,13 @@ export default function Whatwedo() {
                     <span className="title">We are a team of professionals who are passionate about what we do. We offer a wide range of services to meet your needs. We are here to help you grow your business and make your dreams a reality. Our services include:</span>
                     <span className="des">Immediate and 100% Guaranteed</span> 
                  </div>
-                 
+
                  {/* new code is added now.... */}
+
+                 <div className="wwd-blocks">
+                    <div classNam="wwd-block"></div>
+                    <div classNam="wwd-block"></div>
+                 </div>
             </div>
         </div>
     </div>
