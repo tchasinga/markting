@@ -1,20 +1,22 @@
-.wwd-wrapper{
-    position: relative;
+.wwd-wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
 }
 
-.wwd-container{
-    margin-top: 10rem;
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-    align-items: center;
-    justify-content: center;
+.wwd-container {
+  margin-top: 10rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
 }
 
-.wwd-head{
-   display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 1rem;
-    width: 55%; 
+.wwd-head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  width: 55%;
 }
