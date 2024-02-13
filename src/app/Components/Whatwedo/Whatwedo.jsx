@@ -17,7 +17,9 @@ export default function Whatwedo() {
                  {/* new code is added now.... */}
 
                  <div className="wwd-blocks">
-                    <div classNam="wwd-block"></div>
+                    <div classNam="wwd-block">
+                        
+                    </div>
                     <div classNam="wwd-block"></div>
                  </div>
             </div>
