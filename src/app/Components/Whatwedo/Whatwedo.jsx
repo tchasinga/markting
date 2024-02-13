@@ -18,8 +18,16 @@ export default function Whatwedo() {
 
                  <div className="wwd-blocks">
                     <div classNam="wwd-block">
+                        <div>
                         <span className="wwd-block-title">Revenue</span>
+                        </div>
                         <span className="wwd-block-des">We help you increase your revenue by providing you with the best marketing strategies and tools to help you grow your business.</span>
+
+                        <div className="wwd-block-img">
+                            {
+                                
+                            }
+                        </div>
                     </div>
                     <div classNam="wwd-block"></div>
                  </div>

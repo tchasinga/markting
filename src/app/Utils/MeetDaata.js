@@ -1,6 +1,9 @@
 import UndrawOne from '../assets/Icons/undraOne.png'
 import UndrawTwo from '../assets/Icons/undrawTwo.png'
 import UndrawThree from '../assets/Icons/undrawThree.png'
+import UndrawFour from '../assets/Icons/undrawFour.png'
+import UndrawFive from '../assets/assets/Icons/undrawFive.png'
+import UndrawSix from '../assets/Icons/undrawSix.png'
 
 
 
@@ -22,7 +25,25 @@ const MeetDaata = [
         bg: "#fec045",
         delay: 0.2,
         title : "Immediate",
-    }
+    },
+    {
+        src: UndrawFour,
+        bg: "#f8f6f7",
+        delay: 0.4,
+        title : "100% Guaranteed",
+    },
+    {
+        src: UndrawFive,
+        bg: "#bcdfe3",
+        delay: 0.5,
+        title : "Immediate",
+    },
+    {
+        src: UndrawSix,
+        bg: "#ecadc8",
+        delay: 0.6,
+        title : "Monthly revenue",
+    },
 ]
 
 export default MeetDaata;
