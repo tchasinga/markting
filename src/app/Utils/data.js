@@ -43,4 +43,5 @@ const heroData = [
   },
 ];
 
-export default heroData;
+
+export default heroData ;
