@@ -14,6 +14,10 @@ pnpm dev
 bun dev
 ```
 
+```bash
+ Make a big catch up  this animation learning time & page 2:05:04 / 03:38:24
+```
+
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
