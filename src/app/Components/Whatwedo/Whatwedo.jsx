@@ -1,6 +1,7 @@
 "use client";
 import React from 'react';
 import MeetDaata from '../../Utils/MeetDaata';
+import Image from "next/image";
 
 export default function Whatwedo() {
   return (
@@ -29,6 +30,8 @@ export default function Whatwedo() {
                                 MeetDaata.slice(0,3).map((item, index) => {
                                     return (
                                         <div key={index}>
+                                            <Image src={item.src} alt={item.title} />
+                                            <span className="wwd-block-img-title">{item.title}</span>
                                         </div>
                                     )})
                             }
