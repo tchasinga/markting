@@ -26,7 +26,11 @@ export default function Whatwedo() {
 
                         <div className="wwd-block-img">
                             {
-
+                                MeetDaata.slice(0,3).map((item, index) => {
+                                    return (
+                                        <div key={index}>
+                                        </div>
+                                    )})
                             }
                         </div>
                     </div>
