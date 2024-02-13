@@ -29,7 +29,7 @@ export default function Whatwedo() {
                             {
                                 MeetDaata.slice(0,3).map((item, index) => (
                                         <div key={index}>
-                                            <Image src={item.src} alt={item.title} />
+                                            <Image src={item.src} alt={item.title} width={80} heigth={80}/>
                                             <span className="wwd-block-img-title">{item.title}</span>
                                         </div>
                                 ))
