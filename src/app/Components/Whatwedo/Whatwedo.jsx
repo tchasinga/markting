@@ -2,6 +2,7 @@
 import React from 'react';
 import MeetDaata from '../../Utils/MeetDaata';
 import Image from "next/image";
+import  './Whatwedo.css';
 
 export default function Whatwedo() {
   return (
@@ -36,7 +37,7 @@ export default function Whatwedo() {
                             }
                         </div>
                     </div>
-                    <div classNam="wwd-block"></div>
+                    <div classNam="wwd-block">Second</div>
                  </div>
             </div>
         </div>

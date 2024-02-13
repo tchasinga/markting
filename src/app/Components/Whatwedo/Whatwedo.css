@@ -1,7 +1,5 @@
 .wwd-wrapper {
   position: relative;
-  display: flex;
-  flex-direction: column;
 }
 
 .wwd-container {
@@ -22,7 +20,13 @@
 }
       
 
-.wwd-blocks{
+.wwd-blocks {
+  display: flex;
+  gap: 2rem;
+  width: 100%;
+}
+
+.wwd-block{
     flex: 1;
     display: flex;
     flex-direction: column;
