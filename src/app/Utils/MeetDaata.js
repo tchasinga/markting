@@ -2,7 +2,7 @@ import UndrawOne from '../assets/Icons/undraOne.png'
 import UndrawTwo from '../assets/Icons/undrawTwo.png'
 import UndrawThree from '../assets/Icons/undrawThree.png'
 import UndrawFour from '../assets/Icons/undrawFour.png'
-import UndrawFive from '../assets/assets/Icons/undrawFive.png'
+import UndrawFive from '../assets/Icons/undrawFive.png'
 import UndrawSix from '../assets/Icons/undrawSix.png'
 
 
