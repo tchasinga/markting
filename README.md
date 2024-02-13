@@ -1,17 +1,10 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
 
-First, run the development server:
+## LEARN BACK IS ADDED NOW 
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+ Make a big catch up  this animation learning time & page 2:05:04 / 03:38:24
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
