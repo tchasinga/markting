@@ -32,15 +32,32 @@ export const imageVariantsTitle = {
 export const imageVariants = {
   offscreen: {
     opacity: 0,
-    y: 20,
+    y: 30,
   },
   onscreen: {
     opacity: 1,
     y: 0,
     transition: {
       type: "spring",
-      duration: 3,
-      delay: .2,
+      duration: 2.5,
+      delay: 2,
     },
   },
 };
+
+
+export const DesVariants = {
+    offscreen: {
+      opacity: 0,
+      y: 30,
+    },
+    onscreen: {
+      opacity: 1,
+      y: 0,
+      transition: {
+        type: "spring",
+        duration: 2.6,
+        delay: .2,
+      },
+    },
+  };
